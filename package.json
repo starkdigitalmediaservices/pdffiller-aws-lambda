@@ -1,0 +1,57 @@
+{
+  "_args": [
+    [
+      "pdffiller-aws-lambda@0.0.12",
+      "/home/stark/Shrutika/GitProject/eassist-business-logic"
+    ]
+  ],
+  "_from": "pdffiller-aws-lambda@0.0.12",
+  "_id": "pdffiller-aws-lambda@0.0.12",
+  "_inBundle": false,
+  "_integrity": "sha512-r1/HrnR8SrdmUMBXHOQt2t3A+riSTVKjVICtDLWEvVKnleghh5/NGKfLXrTo4fyWFC35MmHlcz8seI4g4vBa5A==",
+  "_location": "/pdffiller-aws-lambda",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "pdffiller-aws-lambda@0.0.12",
+    "name": "pdffiller-aws-lambda",
+    "escapedName": "pdffiller-aws-lambda",
+    "rawSpec": "0.0.12",
+    "saveSpec": null,
+    "fetchSpec": "0.0.12"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/pdffiller-aws-lambda/-/pdffiller-aws-lambda-0.0.12.tgz",
+  "_spec": "0.0.12",
+  "_where": "/home/stark/Shrutika/GitProject/eassist-business-logic",
+  "author": {
+    "name": "John Taylor and David Baldwynn"
+  },
+  "dependencies": {
+    "lodash": "~3.8.0",
+    "utf8-fdf-generator-lite": "*"
+  },
+  "description": "Take an existing PDF Form and data and PDF Filler will create a new PDF with all given fields populated.",
+  "devDependencies": {
+    "mocha": "~2.4.5",
+    "should": "~6.0.1"
+  },
+  "keywords": [
+    "nodejs",
+    "pdftk",
+    "fdf",
+    "pdffiller",
+    "pdf"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "pdffiller-aws-lambda",
+  "private": false,
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "version": "0.0.12"
+}
