@@ -147,7 +147,7 @@
 
         fillFormWithFlatten: function (sourceFile, destinationFile, fieldValues, shouldFlatten, callback) {
             console.log('fillFormWithFlatten call');
-            this.fillFormWithOptions(sourceFile, destinationFile, fieldValues, shouldFlatten, undefined, callback);
+            this.fillFormWithOptions(sourceFile, destinationFile, fieldValues, shouldFlatten, '/tmp', callback);
             console.log('fillFormWithOptions after function call');
         },
 
