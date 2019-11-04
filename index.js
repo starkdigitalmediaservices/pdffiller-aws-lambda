@@ -123,8 +123,8 @@
             }
 
             // Set the PATH and LD_LIBRARY_PATH environment variables.
-            process.env['PATH'] = process.env['PATH'] + ':' + process.env['LAMBDA_TASK_ROOT'] + '/node_modules/pdffiller-aws-lambda/bin';
-            process.env['LD_LIBRARY_PATH'] = process.env['LAMBDA_TASK_ROOT'] + '/node_modules/pdffiller-aws-lambda/bin';
+            process.env['PATH'] = process.env['PATH'] + ':' + process.env['LAMBDA_TASK_ROOT'] + '/node_modules/pdftk-lambda/bin';
+            process.env['LD_LIBRARY_PATH'] = process.env['LAMBDA_TASK_ROOT'] + '/node_modules/pdftk-lambda/bin';
             console.log('args', args);
             await execFile("pdftk", args, function (error, stdout, stderr) {
                 console.log('inside execfile');

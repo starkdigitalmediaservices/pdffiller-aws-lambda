@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "lodash": "~3.8.0",
+    "pdftk-lambda": "0.0.5",
     "utf8-fdf-generator-lite": "*"
   },
   "description": "Take an existing PDF Form and data and PDF Filler will create a new PDF with all given fields populated.",
