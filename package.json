@@ -31,7 +31,7 @@
     "name": "John Taylor and David Baldwynn"
   },
   "dependencies": {
-    "lodash": "~3.8.0",
+    "lodash": "~4.17.19",
     "pdftk-lambda": "0.0.5",
     "utf8-fdf-generator-lite": "*"
   },
